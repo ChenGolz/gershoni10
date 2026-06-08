@@ -1,131 +1,116 @@
 <!doctype html>
-<html lang="en">
+<html lang="he" dir="rtl">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sonia & Amir Plot | Dark Museum Exhibition</title>
-  <meta name="description" content="A dark, museum-exhibition inspired memorial page design." />
+  <title>סוניה ואמיר פלוט | מוזיאון זיכרון כהה</title>
+  <meta name="description" content="עמוד זיכרון כהה, עמוק ומוזיאלי לסוניה ואמיר פלוט." />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body class="memorial-page design-museum">
-  <aside class="museum-side" aria-hidden="true">
-    <div class="seal">A love<br/>that remains</div>
-    <span></span>
-    <p>Together.<br/>Then.<br/>Always.</p>
-  </aside>
-
   <header class="site-header museum-header">
-    <a class="brand" href="index.html" aria-label="Back to design options">Sonia & Amir</a>
-    <button class="nav-toggle" type="button" data-nav-toggle aria-label="Open navigation">Menu</button>
-    <nav class="site-nav" data-nav>
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About Them</a>
-      <a href="#journey">Their Journey</a>
-      <a href="#memories">Memories</a>
-      <a href="#tributes">Tributes</a>
+    <a class="brand" href="index.html">סוניה ואמיר</a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-label="פתיחת תפריט">תפריט</button>
+    <nav class="site-nav" data-nav aria-label="ניווט ראשי">
+      <a href="#home" class="active">דף הבית</a>
+      <a href="#about">אודותיהם</a>
+      <a href="#journey">המסע</a>
+      <a href="#memories">זיכרונות</a>
+      <a href="#tributes">מחוות</a>
     </nav>
-    <a class="copper-button" href="#tributes">Light a Candle</a>
+    <a class="candle-button" href="#guestbook">הדלקת נר</a>
   </header>
 
-  <main id="home" class="museum-main">
+  <main id="home">
     <section class="museum-hero">
-      <img class="museum-hero-img" src="assets/shared/photo-24.jpg" alt="Sonia and Amir together at a family event" />
+      <aside class="museum-rail" aria-hidden="true">
+        <div class="seal">אהבה<br>שנשארת</div>
+        <span></span>
+        <p>יחד.<br>אז.<br>תמיד.</p>
+      </aside>
+      <img src="assets/shared/photo-24.jpg" alt="סוניה ואמיר פלוט" />
       <div class="museum-hero-panel">
-        <p class="eyebrow">In loving memory</p>
-        <h1>Sonia <em>&</em> Amir</h1>
-        <p class="life-dates">Family archive <span>•</span> photographs <span>•</span> remembrance</p>
-        <p>Two souls, one extraordinary love. Their story is carried through photographs, farewell words, and the memories held by family and friends.</p>
+        <p class="eyebrow">לזכרם האהוב</p>
+        <h1>סוניה <em>ואמיר</em></h1>
+        <p class="life-dates">אהבה, משפחה ומורשת שנשארת</p>
+        <p>שני אנשים, אהבה אחת יוצאת דופן. הם בנו חיים של חסד, צחוק, שקט פנימי ונתינה — והסיפור שלהם ממשיך בלב כל מי שהכיר אותם.</p>
         <div class="button-row">
-          <a class="copper-button" href="#about">Read Their Story</a>
-          <a class="ghost-button" href="#tributes">Share a Memory ♡</a>
+          <a class="copper-button" href="#about">לסיפור שלהם</a>
+          <a class="ghost-button" href="#guestbook">שיתוף זיכרון ♡</a>
         </div>
       </div>
-      <p class="handnote">Not gone,<br/>only beyond sight.<br/>Forever in our hearts.</p>
+      <p class="hand-note">לא נעלמו,<br>רק מעבר למבט.<br>תמיד בלב.</p>
     </section>
 
     <section id="about" class="museum-about">
-      <blockquote>
-        <p class="eyebrow">A love that inspired</p>
-        <span>“</span>
-        <p>The best thing to hold onto in life is each other.</p>
-        <cite>— Sonia & Amir</cite>
-      </blockquote>
-      <article>
-        <p class="eyebrow">About them</p>
-        <h2>Partners in life. Best friends. Soulmates.</h2>
-        <p>Sonia’s warmth and grace could light up any room. Amir’s wisdom and gentle humor grounded everyone around him. Together, they built a beautiful life rooted in family, faith, and a deep commitment to helping others.</p>
+      <div class="museum-quote">
+        <p class="eyebrow">אהבה שהשאירה חותם</p>
+        <blockquote>״הדבר הטוב ביותר להיאחז בו בחיים הוא זה בזה.״</blockquote>
+      </div>
+      <article class="parchment-panel">
+        <p class="eyebrow">אודותיהם</p>
+        <h2>שותפים לחיים. חברים קרובים. בית אחד.</h2>
+        <p>סוניה הביאה איתה חום, רוך ונתינה. אמיר הביא סקרנות, ערכים, שירים וסיפורים. יחד הם יצרו בית שהיה מלא באהבה, משפחה, אירוח, הומור ותחושת שייכות.</p>
       </article>
     </section>
 
-    <section id="memories" class="museum-fragments">
-      <div class="museum-section-title">
-        <p class="eyebrow">Chapter 02</p>
-        <h2>Moments & Fragments</h2>
-        <p>A glimpse of their beautiful story</p>
+    <section id="memories" class="fragment-gallery" data-gallery>
+      <div class="chapter-heading">
+        <p class="eyebrow">פרק 02</p>
+        <h2>רגעים ושברים של אור</h2>
+        <span>מבט אל אלבום הזיכרונות</span>
       </div>
-      <div class="fragment-wall">
-        <img class="tilt-left" src="assets/shared/photo-14.jpg" alt="Wedding portrait from the family archive" />
-        <img class="small-photo" src="assets/shared/photo-10.jpg" alt="Outdoor portrait" />
-        <img class="wide-photo" src="assets/shared/photo-13.jpg" alt="Celebration at home" />
-        <img class="small-photo" src="assets/shared/photo-17.jpg" alt="Family gathering outdoors" />
-        <img class="tilt-right" src="assets/shared/photo-04.jpg" alt="Sonia and Amir seated together" />
-        <img class="small-photo" src="assets/shared/photo-11.jpg" alt="Family gathering" />
+      <a class="view-all" href="#">לכל הזיכרונות ←</a>
+      <button class="gallery-arrow prev" data-gallery-prev aria-label="תמונות קודמות">›</button>
+      <div class="gallery-window">
+        <div class="gallery-track collage-track" data-gallery-track>
+          <img src="assets/shared/photo-14.jpg" alt="חתונה" />
+          <img src="assets/shared/photo-10.jpg" alt="טיול זוגי" />
+          <img src="assets/shared/photo-13.jpg" alt="יום הולדת" />
+          <img src="assets/shared/photo-11.jpg" alt="משפחה" />
+          <img src="assets/shared/photo-16.jpg" alt="טיול משפחתי" />
+          <img src="assets/shared/photo-18.jpg" alt="תמונה מהעבר" />
+          <img src="assets/shared/photo-19.jpg" alt="דיוקן משפחתי" />
+        </div>
       </div>
+      <button class="gallery-arrow next" data-gallery-next aria-label="תמונות הבאות">‹</button>
     </section>
 
     <section id="journey" class="museum-journey">
-      <div class="museum-section-title compact">
-        <p class="eyebrow">Chapter 03</p>
-        <h2>Their Journey</h2>
-        <p>A life beautifully lived</p>
+      <div class="chapter-heading side-title">
+        <p class="eyebrow">פרק 03</p>
+        <h2>המסע שלהם</h2>
+        <span>חיים בתנועה, באהבה ובמשמעות</span>
       </div>
-      <ol class="path-timeline">
-        <li><span>♡</span><strong>1966</strong><h3>They Met</h3><p>Two paths crossed and a beautiful friendship began.</p></li>
-        <li><span>◌</span><strong>1970</strong><h3>They Married</h3><p>Surrounded by family and blessings, they began life together.</p></li>
-        <li><span>⌂</span><strong>1975</strong><h3>Building a Home</h3><p>A home filled with love, faith, and endless hospitality.</p></li>
-        <li><span>☷</span><strong>1978 – 1990</strong><h3>Growing Together</h3><p>They raised their children with strong values and open hearts.</p></li>
-        <li><span>◎</span><strong>1990+</strong><h3>A Life of Giving</h3><p>Their wisdom and kindness touched countless lives.</p></li>
-        <li><span>✦</span><strong>Forever</strong><h3>Their Legacy</h3><p>Their love remains a guiding light for generations to come.</p></li>
+      <ol class="journey-path">
+        <li><span>♡</span><strong>הם נפגשו</strong><p>שני מסלולים שהתחברו לסיפור אחד.</p></li>
+        <li><span>◌</span><strong>נישאו</strong><p>חברות, משפחה וברכות סביב התחלה חדשה.</p></li>
+        <li><span>⌂</span><strong>בנו בית</strong><p>בית של אהבה, ערכים ואירוח אין־סופי.</p></li>
+        <li><span>☷</span><strong>גדלו יחד</strong><p>משפחה מלוכדת, ילדים ונכדים אהובים.</p></li>
+        <li><span>♬</span><strong>חיים של שיר</strong><p>שירים, סיפורים ורוח צעירה שנשארה תמיד.</p></li>
+        <li><span>✦</span><strong>מורשת</strong><p>אהבה שממשיכה להאיר דורות.</p></li>
       </ol>
     </section>
 
     <section id="tributes" class="museum-tributes">
-      <div class="museum-section-title compact">
-        <p class="eyebrow">Chapter 04</p>
-        <h2>Tributes & Memories</h2>
-        <p>Words from hearts that loved them</p>
+      <div class="chapter-heading side-title">
+        <p class="eyebrow">פרק 04</p>
+        <h2>מחוות וזיכרונות</h2>
+        <span>מילים מלבבות שאהבו אותם</span>
       </div>
-      <div class="note-grid">
-        <blockquote>“They treated everyone like family. Their home was a place of comfort, laughter, and unconditional love.”<cite>— Ayesha K.</cite></blockquote>
-        <blockquote>“Amir’s wisdom and kindness left an imprint on my life that I will carry forever.”<cite>— David R.</cite></blockquote>
-        <blockquote>“Sonia’s smile could heal. She had a way of making everyone feel seen and valued.”<cite>— Leila M.</cite></blockquote>
+      <div class="note-cards">
+        <blockquote>״הבית שלהם היה מקום של חום, אהבה וביטחון.״<cite>— המשפחה</cite></blockquote>
+        <blockquote>״החוכמה, השירים והסיפורים של אמיר ילוו אותנו תמיד.״<cite>— לזכרו</cite></blockquote>
+        <blockquote>״סוניה ידעה לגרום לכל אחד להרגיש אהוב ורצוי.״<cite>— לזכרה</cite></blockquote>
       </div>
+      <a id="guestbook" class="share-memory" href="assets/docs/farewell-amir.pdf" target="_blank" rel="noopener">קריאת דברי הפרידה</a>
     </section>
 
-
-    <section class="memorial-documents museum-documents">
-      <div class="museum-section-title compact">
-        <p class="eyebrow">Chapter 05</p>
-        <h2>Farewell Words</h2>
-        <p>Memorial texts from the shared assets folder</p>
-      </div>
-      <div class="document-links dark-links">
-        <a href="assets/docs/farewell-sonia.pdf" target="_blank" rel="noopener">Read words for Sonia</a>
-        <a href="assets/docs/farewell-amir.pdf" target="_blank" rel="noopener">Read words for Amir</a>
-      </div>
-    </section>
-
-    <section class="museum-footer-hero">
-      <img src="assets/shared/photo-10.jpg" alt="Sonia and Amir outdoors" />
-      <h2>Forever carried<br/><em>in our hearts.</em></h2>
-    </section>
+    <footer class="museum-footer">
+      <p>נישאים לעד <em>בליבנו.</em></p>
+      <small>תודה שאתם שומרים את זכרם חי.</small>
+    </footer>
   </main>
-
-  <footer class="museum-footer">
-    <p>Sonia & Amir</p>
-    <p>Thank you for keeping their memory alive.</p>
-    <p>© 2026 All rights reserved</p>
-  </footer>
   <script src="assets/js/main.js"></script>
 </body>
 </html>

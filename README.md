@@ -1,26 +1,25 @@
-# Memorial Pages — Sonia & Amir
+# עמודי זיכרון לסוניה ואמיר פלוט
 
-GitHub Pages-ready static package with 3 separate design directions.
+החבילה כוללת שלוש חלופות עיצוב מוכנות ל-GitHub Pages:
 
-## Files
+1. `option-1-classic-book.html` — ספר זיכרון קלאסי ובהיר
+2. `option-2-modern-gallery.html` — גלריה מודרנית ואלגנטית
+3. `option-3-dark-museum.html` — מוזיאון זיכרון כהה ודרמטי
 
-- `index.html` — choose between the 3 designs
-- `option-1-classic-book.html` — classic warm memorial-book design
-- `option-2-modern-gallery.html` — lighter modern editorial gallery design
-- `option-3-dark-museum.html` — darker museum/exhibition design
-- `assets/css/styles.css` — shared styling
-- `assets/js/main.js` — shared navigation, carousel, and photo lightbox
-- `assets/shared/` — the shared image folder from the uploaded zip, renamed safely for GitHub Pages
-- `assets/docs/` — memorial PDF documents from the uploaded zip
-- `assets/shared/manifest.json` — mapping from safe filenames to original uploaded filenames
+כל העמודים בעברית מלאה, RTL, ומשתמשים בתמונות מתוך:
 
-## Replacing or adding photos
+`assets/shared/`
 
-Add photos into `assets/shared/`, then update the `<img src="assets/shared/photo-XX.jpg">` paths inside the option pages.
+מסמכי הפרידה נמצאים בתוך:
 
-## Publish on GitHub Pages
+`assets/docs/`
 
-Upload the contents of this folder to the root of your GitHub repository, then enable Pages:
+## העלאה ל-GitHub Pages
 
-Settings → Pages → Deploy from branch → `main` / `/root`
+העלי את כל הקבצים לתיקיית השורש של הריפוזיטורי, ואז:
 
+Settings → Pages → Deploy from branch → main / root
+
+## החלפת תמונות
+
+אפשר להחליף את התמונות בתיקיית `assets/shared`, כל עוד שומרים על אותם שמות קבצים (`photo-01.jpg`, `photo-02.jpg` וכו׳). אם משנים שמות, יש לעדכן את ההפניות בעמודי ה-HTML.
