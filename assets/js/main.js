@@ -14,19 +14,20 @@
     const track = gallery.querySelector('[data-gallery-track]');
     const prev = gallery.querySelector('[data-gallery-prev]');
     const next = gallery.querySelector('[data-gallery-next]');
+    const windowEl = gallery.querySelector('.gallery-window');
     let index = 0;
 
     function visibleCount() {
-      if (!track || !track.children.length) return 1;
+      if (!track || !track.children.length || !windowEl) return 1;
       const item = track.children[0];
       const itemWidth = item.getBoundingClientRect().width || 260;
-      const trackWidth = gallery.querySelector('.gallery-window').getBoundingClientRect().width || 1;
+      const trackWidth = windowEl.getBoundingClientRect().width || 1;
       return Math.max(1, Math.floor(trackWidth / itemWidth));
     }
 
     function update() {
       if (!track || !track.children.length) return;
-      const gap = parseFloat(getComputedStyle(track).gap || '0');
+      const gap = parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap || '0') || 0;
       const itemWidth = track.children[0].getBoundingClientRect().width + gap;
       const maxIndex = Math.max(0, track.children.length - visibleCount());
       index = Math.max(0, Math.min(index, maxIndex));
@@ -35,8 +36,8 @@
 
     prev && prev.addEventListener('click', () => { index -= 1; update(); });
     next && next.addEventListener('click', () => { index += 1; update(); });
-    window.addEventListener('resize', update);
-    update();
+    window.addEventListener('resize', update, { passive: true });
+    requestAnimationFrame(update);
   });
 
   const lightbox = document.createElement('div');
@@ -46,7 +47,7 @@
   const lightboxImage = lightbox.querySelector('img');
   const closeButton = lightbox.querySelector('button');
 
-  document.querySelectorAll('.gallery-track img, .polaroid-card img, .classic-hero-image img, .gallery-hero-photo img').forEach((image) => {
+  document.querySelectorAll('.gallery-track img, .full-gallery-grid img, .polaroid-card img, .classic-hero-image img, .gallery-hero-photo img').forEach((image) => {
     image.addEventListener('click', () => {
       lightboxImage.src = image.currentSrc || image.src;
       lightboxImage.alt = image.alt || 'תמונה מוגדלת';
