@@ -1,0 +1,170 @@
+{
+  "images": [
+    {
+      "file": "assets/shared/photo-01.jpg",
+      "original": "14.jpg",
+      "width": 471,
+      "height": 686
+    },
+    {
+      "file": "assets/shared/photo-02.jpg",
+      "original": "3.jpg",
+      "width": 1134,
+      "height": 2016
+    },
+    {
+      "file": "assets/shared/photo-03.jpg",
+      "original": "4.jpg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "assets/shared/photo-04.jpg",
+      "original": "5.jpg",
+      "width": 899,
+      "height": 1599
+    },
+    {
+      "file": "assets/shared/photo-05.jpg",
+      "original": "ImageToStl.com_28ebc648-e587-4d2a-bee6-bb4932e14e4a.jpg",
+      "width": 1530,
+      "height": 2040
+    },
+    {
+      "file": "assets/shared/photo-06.jpg",
+      "original": "ImageToStl.com_4.jpg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "assets/shared/photo-07.jpg",
+      "original": "ImageToStl.com_fe540106-2f26-447d-9c8e-315d51974999.jpg",
+      "width": 2048,
+      "height": 1991
+    },
+    {
+      "file": "assets/shared/photo-08.jpg",
+      "original": "IMG-20170628-WA0000.jpg",
+      "width": 900,
+      "height": 1600
+    },
+    {
+      "file": "assets/shared/photo-09.jpg",
+      "original": "IMG-20190814-WA0019.jpg",
+      "width": 900,
+      "height": 1600
+    },
+    {
+      "file": "assets/shared/photo-10.jpg",
+      "original": "IMG-20190904-WA0027.jpg",
+      "width": 1600,
+      "height": 777
+    },
+    {
+      "file": "assets/shared/photo-11.jpg",
+      "original": "IMG-20220216-WA0003.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "file": "assets/shared/photo-12.jpg",
+      "original": "IMG-20220317-WA0006.jpg",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "assets/shared/photo-13.jpg",
+      "original": "IMG-20230707-WA0021.jpg",
+      "width": 1528,
+      "height": 1528
+    },
+    {
+      "file": "assets/shared/photo-14.jpg",
+      "original": "IMG-20250402-WA0017.jpg",
+      "width": 1134,
+      "height": 2016
+    },
+    {
+      "file": "assets/shared/photo-15.jpg",
+      "original": "IMG-20250402-WA0028.jpg",
+      "width": 2048,
+      "height": 1152
+    },
+    {
+      "file": "assets/shared/photo-16.jpg",
+      "original": "IMG-20250404-WA0019.jpg",
+      "width": 1600,
+      "height": 900
+    },
+    {
+      "file": "assets/shared/photo-17.jpg",
+      "original": "IMG-20250404-WA0031.jpg",
+      "width": 1600,
+      "height": 1200
+    },
+    {
+      "file": "assets/shared/photo-18.jpg",
+      "original": "IMG-20250404-WA0093.jpg",
+      "width": 962,
+      "height": 698
+    },
+    {
+      "file": "assets/shared/photo-19.jpg",
+      "original": "P-01-002.jpg",
+      "width": 1974,
+      "height": 1368
+    },
+    {
+      "file": "assets/shared/photo-20.jpg",
+      "original": "P-01-006.jpg",
+      "width": 2200,
+      "height": 1493
+    },
+    {
+      "file": "assets/shared/photo-21.jpg",
+      "original": "P1010171.JPG",
+      "width": 2200,
+      "height": 1650
+    },
+    {
+      "file": "assets/shared/photo-22.jpg",
+      "original": "אות יקיר יחדיו.jpg",
+      "width": 1200,
+      "height": 1600
+    },
+    {
+      "file": "assets/shared/photo-23.jpg",
+      "original": "מועצה, פברואר 2012 023.jpg",
+      "width": 480,
+      "height": 640
+    },
+    {
+      "file": "assets/shared/photo-24.jpg",
+      "original": "פלוט.jpg",
+      "width": 1275,
+      "height": 866
+    },
+    {
+      "file": "assets/shared/photo-25.jpg",
+      "original": "תמיד בתנועה אמיר פלוט1.jpg",
+      "width": 1040,
+      "height": 720
+    },
+    {
+      "file": "assets/shared/photo-26.jpg",
+      "original": "תמיד בתנועה אמיר פלוט2.jpg",
+      "width": 1040,
+      "height": 720
+    }
+  ],
+  "documents": [
+    {
+      "file": "assets/docs/farewell-amir.pdf",
+      "original": "דברי פרידה מאמיר.pdf"
+    },
+    {
+      "file": "assets/docs/farewell-sonia.pdf",
+      "original": "דברי פרידה מסוניה.pdf"
+    }
+  ]
+}

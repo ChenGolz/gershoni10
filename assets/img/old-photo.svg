@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 760" width="680" height="760">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8cab9"/>
+      <stop offset="1" stop-color="#9d8d79"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.11"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="680" height="760" fill="url(#g)"/>
+  <rect width="680" height="760" filter="url(#grain)" opacity="0.45"/>
+  <circle cx="237.99999999999997" cy="288.8" r="108.8" fill="none" stroke="#b98a45" stroke-width="3" opacity="0.45"/>
+  <circle cx="387.59999999999997" cy="273.59999999999997" r="122.39999999999999" fill="none" stroke="#b98a45" stroke-width="3" opacity="0.35"/>
+  <path d="M 122.39999999999999 577.6 C 237.99999999999997 440.79999999999995, 442.0 722.0, 571.1999999999999 532.0" fill="none" stroke="#b98a45" stroke-width="2" opacity="0.6"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="37" fill="#2b2926" opacity="0.82">Archival photo</text>
+</svg>

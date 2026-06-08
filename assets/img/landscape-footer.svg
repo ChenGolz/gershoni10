@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 380" width="1600" height="380">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c1a1a"/>
+      <stop offset="1" stop-color="#7a4a36"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 0.11"/></feComponentTransfer></filter>
+  </defs>
+  <rect width="1600" height="380" fill="url(#g)"/>
+  <rect width="1600" height="380" filter="url(#grain)" opacity="0.45"/>
+  <circle cx="560.0" cy="144.4" r="60.800000000000004" fill="none" stroke="#c47b45" stroke-width="3" opacity="0.45"/>
+  <circle cx="911.9999999999999" cy="136.79999999999998" r="68.39999999999999" fill="none" stroke="#c47b45" stroke-width="3" opacity="0.35"/>
+  <path d="M 288.0 288.8 C 560.0 220.39999999999998, 1040.0 361.0, 1344.0 266.0" fill="none" stroke="#c47b45" stroke-width="2" opacity="0.6"/>
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="88" fill="#f8ead9" opacity="0.82">Closing landscape / memory image</text>
+</svg>
