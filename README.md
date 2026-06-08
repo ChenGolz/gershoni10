@@ -21,3 +21,7 @@
 ## העלאה ל־GitHub Pages
 העלו את כל תוכן התיקייה לשורש הריפוזיטורי, ואז:
 Settings → Pages → Deploy from branch → main / root
+
+
+## עדכון טכני
+הגרסה הזו כוללת CSS logical properties לתמיכת RTL יציבה יותר, רכיב Header משותף ב-JavaScript, אייקוני SVG נקיים במקום סימני טקסט, טיימליין Grid גמיש, ו-width/height על תמונות למניעת קפיצות טעינה.

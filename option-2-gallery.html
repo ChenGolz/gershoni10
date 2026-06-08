@@ -9,17 +9,7 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body class="memorial-page design-gallery gallery-page-shell">
-  <header class="site-header gallery-header">
-    <a class="brand monogram" href="index.html" aria-label="חזרה לבחירת עיצוב"><span>ס</span><span>א</span></a>
-    <button class="nav-toggle" type="button" data-nav-toggle aria-label="פתיחת תפריט">תפריט</button>
-    <nav class="site-nav" data-nav aria-label="ניווט ראשי">
-      <a href="option-2-modern-gallery.html">דף הבית</a>
-      <a href="option-2-modern-gallery.html#story">סיפורם</a>
-      <a href="option-2-modern-gallery.html#timeline">ציר הזמן</a>
-      <a href="option-2-gallery.html" class="active">גלריה מלאה</a>
-      <a href="option-2-modern-gallery.html#tributes">זיכרונות</a>
-    </nav>
-  </header>
+  <memorial-header variant="gallery" active="gallery-full"></memorial-header>
 
   <main>
     <section class="gallery-page-hero paper-grain">
@@ -27,27 +17,27 @@
         <p class="eyebrow">גלריית זיכרונות</p>
         <h1>רגעים שנשארים איתנו</h1>
         <p>אוסף תמונות מתוך אלבום המשפחה — רגעים קטנים וגדולים מחיים של אהבה, בית, משפחה ונתינה.</p>
-        <a class="gallery-page-back" href="option-2-modern-gallery.html">חזרה לעמוד העיצוב ←</a>
+        <a class="gallery-page-back" href="option-2-modern-gallery.html">חזרה לעמוד העיצוב <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
       </div>
     </section>
 
     <section class="full-gallery-grid" aria-label="גלריית תמונות מלאה">
-      <figure><img src="assets/shared/photo-24.jpg" alt="סוניה ואמיר יחד" loading="eager" decoding="async"><figcaption>אהבה שנשארת</figcaption></figure>
-      <figure><img src="assets/shared/photo-14.jpg" alt="תמונה ישנה מתוך האלבום" loading="lazy" decoding="async"><figcaption>מתוך האלבום המשפחתי</figcaption></figure>
-      <figure><img src="assets/shared/photo-10.jpg" alt="סוניה ואמיר בטיול" loading="lazy" decoding="async"><figcaption>טיול וזמן יחד</figcaption></figure>
-      <figure><img src="assets/shared/photo-11.jpg" alt="מפגש משפחתי" loading="lazy" decoding="async"><figcaption>משפחה</figcaption></figure>
-      <figure><img src="assets/shared/photo-12.jpg" alt="רגע ביתי" loading="lazy" decoding="async"><figcaption>רגע ביתי</figcaption></figure>
-      <figure><img src="assets/shared/photo-13.jpg" alt="חגיגה משפחתית" loading="lazy" decoding="async"><figcaption>חגיגה משפחתית</figcaption></figure>
-      <figure><img src="assets/shared/photo-15.jpg" alt="זיכרון מהעבר" loading="lazy" decoding="async"><figcaption>זיכרון מהעבר</figcaption></figure>
-      <figure><img src="assets/shared/photo-16.jpg" alt="טיול משפחתי" loading="lazy" decoding="async"><figcaption>דרך משותפת</figcaption></figure>
-      <figure><img src="assets/shared/photo-17.jpg" alt="משפחה וחברים" loading="lazy" decoding="async"><figcaption>אנשים שאהבו אותם</figcaption></figure>
-      <figure><img src="assets/shared/photo-18.jpg" alt="תמונה מתוך האלבום" loading="lazy" decoding="async"><figcaption>מתוך האלבום</figcaption></figure>
-      <figure><img src="assets/shared/photo-19.jpg" alt="דיוקן משפחתי" loading="lazy" decoding="async"><figcaption>דיוקן משפחתי</figcaption></figure>
-      <figure><img src="assets/shared/photo-20.jpg" alt="רגע משפחתי" loading="lazy" decoding="async"><figcaption>רגע שנשמר</figcaption></figure>
-      <figure><img src="assets/shared/photo-21.jpg" alt="אמיר וסוניה" loading="lazy" decoding="async"><figcaption>אהבה ובית</figcaption></figure>
-      <figure><img src="assets/shared/photo-22.jpg" alt="תמונה משפחתית" loading="lazy" decoding="async"><figcaption>קרבה משפחתית</figcaption></figure>
-      <figure><img src="assets/shared/photo-23.jpg" alt="זיכרון נוסף" loading="lazy" decoding="async"><figcaption>זיכרון נוסף</figcaption></figure>
-      <figure><img src="assets/shared/photo-25.jpg" alt="אחד המסמכים המצולמים" loading="lazy" decoding="async"><figcaption>עדות וזיכרון</figcaption></figure>
+      <figure><img src="assets/shared/photo-24.jpg" alt="סוניה ואמיר יחד" loading="eager" decoding="async" width="1275" height="866"><figcaption>אהבה שנשארת</figcaption></figure>
+      <figure><img src="assets/shared/photo-14.jpg" alt="תמונה ישנה מתוך האלבום" loading="lazy" decoding="async" width="1134" height="2016"><figcaption>מתוך האלבום המשפחתי</figcaption></figure>
+      <figure><img src="assets/shared/photo-10.jpg" alt="סוניה ואמיר בטיול" loading="lazy" decoding="async" width="1600" height="777"><figcaption>טיול וזמן יחד</figcaption></figure>
+      <figure><img src="assets/shared/photo-11.jpg" alt="מפגש משפחתי" loading="lazy" decoding="async" width="1600" height="1200"><figcaption>משפחה</figcaption></figure>
+      <figure><img src="assets/shared/photo-12.jpg" alt="רגע ביתי" loading="lazy" decoding="async" width="1280" height="720"><figcaption>רגע ביתי</figcaption></figure>
+      <figure><img src="assets/shared/photo-13.jpg" alt="חגיגה משפחתית" loading="lazy" decoding="async" width="1528" height="1528"><figcaption>חגיגה משפחתית</figcaption></figure>
+      <figure><img src="assets/shared/photo-15.jpg" alt="זיכרון מהעבר" loading="lazy" decoding="async" width="2048" height="1152"><figcaption>זיכרון מהעבר</figcaption></figure>
+      <figure><img src="assets/shared/photo-16.jpg" alt="טיול משפחתי" loading="lazy" decoding="async" width="1600" height="900"><figcaption>דרך משותפת</figcaption></figure>
+      <figure><img src="assets/shared/photo-17.jpg" alt="משפחה וחברים" loading="lazy" decoding="async" width="1600" height="1200"><figcaption>אנשים שאהבו אותם</figcaption></figure>
+      <figure><img src="assets/shared/photo-18.jpg" alt="תמונה מתוך האלבום" loading="lazy" decoding="async" width="962" height="698"><figcaption>מתוך האלבום</figcaption></figure>
+      <figure><img src="assets/shared/photo-19.jpg" alt="דיוקן משפחתי" loading="lazy" decoding="async" width="1974" height="1368"><figcaption>דיוקן משפחתי</figcaption></figure>
+      <figure><img src="assets/shared/photo-20.jpg" alt="רגע משפחתי" loading="lazy" decoding="async" width="2200" height="1493"><figcaption>רגע שנשמר</figcaption></figure>
+      <figure><img src="assets/shared/photo-21.jpg" alt="אמיר וסוניה" loading="lazy" decoding="async" width="2200" height="1650"><figcaption>אהבה ובית</figcaption></figure>
+      <figure><img src="assets/shared/photo-22.jpg" alt="תמונה משפחתית" loading="lazy" decoding="async" width="1200" height="1600"><figcaption>קרבה משפחתית</figcaption></figure>
+      <figure><img src="assets/shared/photo-23.jpg" alt="זיכרון נוסף" loading="lazy" decoding="async" width="480" height="640"><figcaption>זיכרון נוסף</figcaption></figure>
+      <figure><img src="assets/shared/photo-25.jpg" alt="אחד המסמכים המצולמים" loading="lazy" decoding="async" width="1040" height="720"><figcaption>עדות וזיכרון</figcaption></figure>
     </section>
   </main>
 

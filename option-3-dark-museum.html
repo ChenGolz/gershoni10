@@ -9,18 +9,7 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body class="memorial-page design-museum">
-  <header class="site-header museum-header">
-    <a class="brand" href="index.html">סוניה ואמיר</a>
-    <button class="nav-toggle" type="button" data-nav-toggle aria-label="פתיחת תפריט">תפריט</button>
-    <nav class="site-nav" data-nav aria-label="ניווט ראשי">
-      <a href="#home" class="active">דף הבית</a>
-      <a href="#about">אודותיהם</a>
-      <a href="#journey">המסע</a>
-      <a href="#memories">זיכרונות</a>
-      <a href="#tributes">מחוות</a>
-    </nav>
-    <a class="candle-button" href="#guestbook">הדלקת נר</a>
-  </header>
+  <memorial-header variant="museum" active="home"></memorial-header>
 
   <main id="home">
     <section class="museum-hero">
@@ -29,7 +18,7 @@
         <span></span>
         <p>יחד.<br>אז.<br>תמיד.</p>
       </aside>
-      <img src="assets/shared/photo-24.jpg" alt="סוניה ואמיר פלוט" loading="eager" decoding="async" />
+      <img src="assets/shared/photo-24.jpg" alt="סוניה ואמיר פלוט" loading="eager" decoding="async" width="1275" height="866">
       <div class="museum-hero-panel">
         <p class="eyebrow">לזכרם האהוב</p>
         <h1>סוניה <em>ואמיר</em></h1>
@@ -37,7 +26,7 @@
         <p>שני אנשים, אהבה אחת יוצאת דופן. הם בנו חיים של חסד, צחוק, שקט פנימי ונתינה — והסיפור שלהם ממשיך בלב כל מי שהכיר אותם.</p>
         <div class="button-row">
           <a class="copper-button" href="#about">לסיפור שלהם</a>
-          <a class="ghost-button" href="#guestbook">שיתוף זיכרון ♡</a>
+          <a class="ghost-button" href="#guestbook">שיתוף זיכרון <svg class="ui-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20.5s-7.2-4.35-9.4-8.85C1.15 8.7 2.75 5.5 5.85 5.1c1.75-.22 3.35.62 4.25 2.02.9-1.4 2.5-2.24 4.25-2.02 3.1.4 4.7 3.6 3.25 6.55C19.2 16.15 12 20.5 12 20.5Z" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/></svg></a>
         </div>
       </div>
       <p class="hand-note">לא נעלמו,<br>רק מעבר למבט.<br>תמיד בלב.</p>
@@ -61,20 +50,20 @@
         <h2>רגעים ושברים של אור</h2>
         <span>מבט אל אלבום הזיכרונות</span>
       </div>
-      <a class="view-all" href="#">לכל הזיכרונות ←</a>
-      <button class="gallery-arrow prev" data-gallery-prev aria-label="תמונות קודמות">›</button>
+      <a class="view-all" href="#">לכל הזיכרונות <svg class="link-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <button class="gallery-arrow prev" data-gallery-prev aria-label="תמונות קודמות"></button>
       <div class="gallery-window">
         <div class="gallery-track collage-track" data-gallery-track>
-          <img src="assets/shared/photo-14.jpg" alt="חתונה"  loading="lazy" decoding="async" />
-          <img src="assets/shared/photo-10.jpg" alt="טיול זוגי"  loading="lazy" decoding="async" />
-          <img src="assets/shared/photo-13.jpg" alt="יום הולדת"  loading="lazy" decoding="async" />
-          <img src="assets/shared/photo-11.jpg" alt="משפחה"  loading="lazy" decoding="async" />
-          <img src="assets/shared/photo-16.jpg" alt="טיול משפחתי"  loading="lazy" decoding="async" />
-          <img src="assets/shared/photo-18.jpg" alt="תמונה מהעבר"  loading="lazy" decoding="async" />
-          <img src="assets/shared/photo-19.jpg" alt="דיוקן משפחתי"  loading="lazy" decoding="async" />
+          <img src="assets/shared/photo-14.jpg" alt="חתונה"  loading="lazy" decoding="async" width="1134" height="2016">
+          <img src="assets/shared/photo-10.jpg" alt="טיול זוגי"  loading="lazy" decoding="async" width="1600" height="777">
+          <img src="assets/shared/photo-13.jpg" alt="יום הולדת"  loading="lazy" decoding="async" width="1528" height="1528">
+          <img src="assets/shared/photo-11.jpg" alt="משפחה"  loading="lazy" decoding="async" width="1600" height="1200">
+          <img src="assets/shared/photo-16.jpg" alt="טיול משפחתי"  loading="lazy" decoding="async" width="1600" height="900">
+          <img src="assets/shared/photo-18.jpg" alt="תמונה מהעבר"  loading="lazy" decoding="async" width="962" height="698">
+          <img src="assets/shared/photo-19.jpg" alt="דיוקן משפחתי"  loading="lazy" decoding="async" width="1974" height="1368">
         </div>
       </div>
-      <button class="gallery-arrow next" data-gallery-next aria-label="תמונות הבאות">‹</button>
+      <button class="gallery-arrow next" data-gallery-next aria-label="תמונות הבאות"></button>
     </section>
 
     <section id="journey" class="museum-journey">
@@ -84,12 +73,12 @@
         <span>חיים בתנועה, באהבה ובמשמעות</span>
       </div>
       <ol class="journey-path">
-        <li><span>♡</span><strong>הם נפגשו</strong><p>שני מסלולים שהתחברו לסיפור אחד.</p></li>
-        <li><span>◌</span><strong>נישאו</strong><p>חברות, משפחה וברכות סביב התחלה חדשה.</p></li>
-        <li><span>⌂</span><strong>בנו בית</strong><p>בית של אהבה, ערכים ואירוח אין־סופי.</p></li>
-        <li><span>☷</span><strong>גדלו יחד</strong><p>משפחה מלוכדת, ילדים ונכדים אהובים.</p></li>
-        <li><span>♬</span><strong>חיים של שיר</strong><p>שירים, סיפורים ורוח צעירה שנשארה תמיד.</p></li>
-        <li><span>✦</span><strong>מורשת</strong><p>אהבה שממשיכה להאיר דורות.</p></li>
+        <li><span><svg class="ui-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20.5s-7.2-4.35-9.4-8.85C1.15 8.7 2.75 5.5 5.85 5.1c1.75-.22 3.35.62 4.25 2.02.9-1.4 2.5-2.24 4.25-2.02 3.1.4 4.7 3.6 3.25 6.55C19.2 16.15 12 20.5 12 20.5Z" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/></svg></span><strong>הם נפגשו</strong><p>שני מסלולים שהתחברו לסיפור אחד.</p></li>
+        <li><span><svg class="ui-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10.2 8.6A4.9 4.9 0 1 0 17 15.4 4.9 4.9 0 0 0 10.2 8.6Z" stroke="currentColor" stroke-width="1.7"/><path d="M7 9.2a4.9 4.9 0 1 0 6.8 6.8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="m11.2 5 1.25-1.6 1.25 1.6-1.25 1.35L11.2 5Z" stroke="currentColor" stroke-width="1.35" stroke-linejoin="round"/></svg></span><strong>נישאו</strong><p>חברות, משפחה וברכות סביב התחלה חדשה.</p></li>
+        <li><span><svg class="ui-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 11.2 12 4l8 7.2v8.3a1 1 0 0 1-1 1h-4.2v-5.6H9.2v5.6H5a1 1 0 0 1-1-1v-8.3Z" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>בנו בית</strong><p>בית של אהבה, ערכים ואירוח אין־סופי.</p></li>
+        <li><span><svg class="ui-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm8 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM3.8 20v-2.1A4.9 4.9 0 0 1 8.7 13h.6a4.9 4.9 0 0 1 4.9 4.9V20M13.3 13.55A4.8 4.8 0 0 1 16 13h.4a4.8 4.8 0 0 1 4.8 4.8V20" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>גדלו יחד</strong><p>משפחה מלוכדת, ילדים ונכדים אהובים.</p></li>
+        <li><span><svg class="ui-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 18.2a2.4 2.4 0 1 1-1.2-2.08V5.6l9-1.8v10.6a2.4 2.4 0 1 1-1.2-2.08V7.6L9 8.92v9.28Z" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/></svg></span><strong>חיים של שיר</strong><p>שירים, סיפורים ורוח צעירה שנשארה תמיד.</p></li>
+        <li><span><svg class="ui-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m12 3.7 2.15 5.05 5.45.48-4.13 3.6 1.23 5.34L12 15.42l-4.7 2.75 1.23-5.34-4.13-3.6 5.45-.48L12 3.7Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span><strong>מורשת</strong><p>אהבה שממשיכה להאיר דורות.</p></li>
       </ol>
     </section>
 
